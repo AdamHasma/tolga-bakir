@@ -11,10 +11,11 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <title>Tolga Bakir</title>
-    <script type="module" crossorigin src="./assets/index-14929b63.js"></script>
-    <link rel="stylesheet" href="./assets/index-e8788329.css">
+    <script type="module" crossorigin src="./assets/index-b382fd87.js"></script>
+    <link rel="stylesheet" href="./assets/index-358c0d9c.css">
   </head>
   <body>
+    <div id="scrollbar"></div>
     <!-- Tolga ist ein Naturheilkundler -->
     <!-- hier wird mit tailwind gearbeitet -->
     <nav class="max-w-7xl m-auto absolute left-0 right-0 top">
@@ -25,7 +26,7 @@
           </a>
         </div>
         <div class="hidden md:flex items-center space-x-1 text-xl">
-          <a href="#" class="py-5 px-3">Leben 2</a>
+          <a href="#" class="py-5 px-3">Kundenerfolge</a>
           <a href="#" class="py-5 px-3">Ablauf</a>
           <a href="#" class="py-5 px-3">Über mich</a>
           <a href="#" class="py-5 px-3">FAQ</a>
@@ -34,8 +35,8 @@
         <div class="hidden md:flex items-center space-x-1">
           <a
             href="#"
-            class="py-3 px-7 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
-            >Termin vereinbaren</a
+            class="py-3 px-7 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
+            >Erstgespräch vereinbaren</a
           >
         </div>
       </div>
@@ -45,35 +46,43 @@
         <header>
           <!-- background image with img tag -->
           <!-- on this section there is a video left and text right. Below the text will be the social media buttons -->
-          <!-- below the video will be CTA with "Termin vereinbaren" filling 100% width of the video -->
+          <!-- below the video will be CTA with "Erstgespräch vereinbaren" filling 100% width of the video -->
           <h2 class="text-4xl text-center">
             <strong>Langfristig</strong> und <strong>nachhaltig</strong> gesund
             zu deinem Wunschgewicht
           </h2>
           <div class="flex items-center mt-12 justify-between">
-            <div class="flex rounded-3xl flex-col">
-              <iframe
-                src="https://player.vimeo.com/video/818118134?h=09dec64dd5"
-                width="640"
-                height="360"
-                frameborder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+            <div class="flex w-full rounded-3xl flex-col">
+              <div style="padding: 56.25% 0 0 0; position: relative">
+                <iframe
+                  src="https://player.vimeo.com/video/828584343?h=2f520866ae&color=ffffff&title=0&byline=0&portrait=0"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                  "
+                  frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <script src="https://player.vimeo.com/api/player.js"></script>
               <div class="flex justify-center mt-6">
                 <a href="#" class="w-full">
                   <button
-                    class="py-3 flex flex-col items-center w-full font-medium text-2xl hover:scale-105 animation px-5 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+                    class="py-3 flex flex-col items-center w-full font-medium text-2xl hover:scale-105 animation px-5 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
                   >
-                    Termin vereinbaren
+                    Erstgespräch vereinbaren
                     <span class="text-sm mt-1 opacity-50">
-                      kostenlos & unverbindlich
+                      kostenfrei & unverbindlich
                     </span>
                   </button>
                 </a>
               </div>
             </div>
-            <div class="flex flex-col justify-center ml-6">
+            <div class="flex max-w-xl flex-col justify-center ml-6">
               <p>
                 Nachhaltig abnehmen ohne Zwänge oder Verzicht: Durch die
                 Zusammenarbeit mit Jan und seinem Team lernst du, wie du deine
@@ -115,6 +124,17 @@
           </div>
         </header>
       </section>
+      <!-- a section with logos presented
+      content: 4 col images -->
+      <section id="logos" class="hidden">
+        <div class="flex max-w-7xl w-full m-auto">
+          <div class="flex flex-col items-center w-full">
+            <div class="flex justify-center w-full gap-6">
+              <img class="w-1/6" src="./assets/DUB-03950cdf.png" alt="ihk" />
+            </div>
+          </div>
+        </div>
+      </section>
       <nav
         class="bg-[white] drop-shadow-md m-auto sticky left-0 right-0 top-0 z-20"
       >
@@ -131,7 +151,7 @@
             </a>
           </div>
           <div class="hidden md:flex items-center space-x-1 text-xl">
-            <a href="#" class="py-5 px-3">Leben 2</a>
+            <a href="#" class="py-5 px-3">Kundenerfolge</a>
             <a href="#" class="py-5 px-3">Ablauf</a>
             <a href="#" class="py-5 px-3">Über mich</a>
             <a href="#" class="py-5 px-3">FAQ</a>
@@ -140,8 +160,8 @@
           <div class="hidden md:flex items-center space-x-1">
             <a
               href="#"
-              class="py-2 px-3 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
-              >Termin vereinbaren</a
+              class="py-2 px-3 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
+              >Erstgespräch vereinbaren</a
             >
           </div>
         </div>
@@ -157,43 +177,59 @@
           </p>
         </div>
         <div class="flex items-center mt-12 justify-between">
-          <div class="flex rounded-3xl flex-col">
-            <iframe
-              src="https://player.vimeo.com/video/818118134?h=09dec64dd5"
-              width="640"
-              height="360"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+          <div class="flex w-1/2 rounded-3xl flex-col">
+            <div style="padding: 56.25% 0 0 0; position: relative">
+              <iframe
+                src="https://player.vimeo.com/video/828584343?h=2f520866ae&title=0&byline=0&portrait=0"
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
-          <div class="flex flex-col justify-center ml-6">
+          <div class="flex w-1/2 flex-col justify-center ml-6">
             <p>
-              Vielleicht kennst Du das ja: Du hast deinen Wunsch nach deinem
-              Traumgewicht noch nicht aufgegeben, aber bisher hat nichts
-              funktioniert! Du hast schon 50 verschiedene Diäten ausprobiert und
-              alle Tipps & Tricks angewendet, von denen man dir erzählt hat oder
-              die bei anderen funktioniert haben. Warum nicht bei dir? <br />
+              Kommt dir das bekannt vor: Trotz deines fortwährenden Wunsches
+              nach einem gesunden Körpergewicht hast du bisher keine
+              erfolgreiche Methode gefunden. Du hast bereits unzählige Diäten
+              ausprobiert und sämtliche Ratschläge und Tricks angewandt, von
+              denen man dir erzählt hat oder die bei anderen Menschen
+              funktioniert haben. Doch warum haben sie bei dir nicht den
+              gewünschten Effekt erzielt? <br />
               <br />
-              Jeder Mensch ist einzigartig. Für viele bedeutet ein Programm
-              unnötiger Verzicht und Zwänge sowie viel Sport und Disziplin. Das
-              ist nicht nachhaltig! Unsere entwickelte MEA-3 Methode ist auf
-              maximale Alltagstauglichkeit ausgelegt, sodass es perfekt zu dir
-              und deinen Alltag passt – auch ohne Sport und ohne stundenlang in
-              der Küche zu stehen. Somit schaffst du es dauerhaft, deine Hürden
-              zu überwinden, nachhaltig deine Wunschfigur zu erreichen und vor
-              allem langfristig gesund und fit zu sein.
+              Da jeder Mensch einzigartig ist, bedeutet ein allgemeines Programm
+              oft unnötigen Verzicht, Zwänge und übermäßigen Fokus auf Sport und
+              Disziplin. Diese Herangehensweise ist jedoch nicht nachhaltig und
+              kann langfristig frustrierend sein. <br />
+              <br />
+              Unsere innovative Methode wurde speziell auf maximale
+              Alltagstauglichkeit abgestimmt, um perfekt zu deinem individuellen
+              Lebensstil zu passen – selbst ohne die Notwendigkeit von Sport
+              oder langen Kochsessions in der Küche. Mit dieser ganzheitlichen
+              Strategie kannst du nachhaltig deine gewünschte Figur erreichen
+              und vor allem langfristig eine gesunde und fitte Lebensweise
+              aufrechterhalten. Sie ermöglicht es dir, dauerhaft deine
+              Herausforderungen zu überwinden und ein gesundes
+              Körpergewicht zu bewahren.
             </p>
           </div>
         </div>
         <div class="flex mt-6 justify-center">
           <a href="#" class="">
             <button
-              class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+              class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
             >
-              Termin vereinbaren
+              Erstgespräch vereinbaren
               <span class="text-sm mt-1 opacity-50">
-                kostenlos & unverbindlich
+                kostenfrei & unverbindlich
               </span>
             </button>
           </a>
@@ -201,68 +237,77 @@
       </section>
       <section class="bg-[#efe8df] rounded-3xl" id="leben-2">
         <div class="flex flex-col p-6">
-          <h3 class="text-3xl text-center">Leben 2</h3>
-          <div class="flex justify-stretch mt-12 gap-5">
-            <div
-              class="flex w-full bg-[#efe8df] rounded-3xl flex-col items-center"
-            >
-              <img class="w-1/4" src="./assets/body-8fbbcc04.svg" alt="1" />
-              <h4 class="text-2xl font-medium mt-6">Körper</h4>
-            </div>
-            <div
-              class="flex w-full bg-[#efe8df] rounded-3xl flex-col items-center"
-            >
-              <img class="w-1/4" src="./assets/brain-0f0ceac6.svg" alt="2" />
-              <h4 class="text-2xl font-medium mt-6">Geist</h4>
-            </div>
-            <div
-              class="flex w-full bg-[#efe8df] rounded-3xl flex-col items-center"
-            >
-              <img class="w-1/4" src="./assets/soul-391b6cf8.svg" alt="3" />
-              <h4 class="text-2xl font-medium mt-6">Seele</h4>
-            </div>
-            <!-- schreibe ein Text für Körper Geist und Seele -->
-          </div>
-          <p class="mt-6 max-w-2xl m-auto text-center">
-            Die MEA-3 Methode ist ein ganzheitliches Konzept, das auf drei
-            Säulen basiert: Körper, Geist und Seele. Diese drei Säulen sind die
-            Grundlage für ein gesundes und glückliches Leben.
-          </p>
-
-          <div class="mt-12 swiper w-full mySwiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide px-10 flex">
-                <img
-                  class="rounded-2xl w-1/2"
-                  src="./assets/erfolg1-bb5b4d84.webp"
-                  alt="erfolg1"
-                />
-                <div class="flex flex-col justify-center ml-6">
-                  <h4 class="text-2xl font-medium">Ehtesham</h4>
-                  <p class="mt-3">
-                    „Ich habe schon viele Diäten ausprobiert, aber keine hat
-                    wirklich funktioniert. Ich habe mich immer wieder
-                    selbstsabotiert. Mit der MEA-3 Methode habe ich es endlich
-                    geschafft, meine Ernährung umzustellen und mein
-                    Wunschgewicht zu erreichen. Ich bin so glücklich!“
-                  </p>
-                  <div class="flex gap-4 mt-6 flex-wrap text-lg font-bold">
-                    <p>1,80m</p>
-                    <p>-12,2kg</p>
-                    <p>innerhalb 2 Monate</p>
+          <h3 class="text-3xl text-center">Kundenerfolge</h3>
+          <div class="flex justify-center items-center">
+            <div class="mt-12 swiper w-full mySwiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide px-10 flex">
+                  <img
+                    class="rounded-2xl w-2/5"
+                    src="./assets/erfolg1-bb5b4d84.webp"
+                    alt="erfolg1"
+                  />
+                  <div class="flex flex-col justify-center ml-6">
+                    <h4 class="text-2xl font-medium">Ehtesham</h4>
+                    <p class="mt-3">
+                      „Ich habe schon viele Diäten ausprobiert, aber keine hat
+                      wirklich funktioniert. Ich habe mich immer wieder
+                      selbstsabotiert. Mit der MEA-3 Methode habe ich es endlich
+                      geschafft, meine Ernährung umzustellen und mein
+                      Wunschgewicht zu erreichen. Ich bin so glücklich!“
+                    </p>
+                    <div class="flex gap-4 mt-6 flex-wrap text-lg font-bold">
+                      <p>1,80m</p>
+                      <p>-12,2kg</p>
+                      <p>innerhalb 2 Monate</p>
+                    </div>
                   </div>
                 </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
               </div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              ...
-            </div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <div class="flex w-1/4 ml-12 flex-col justify-stretch gap-12">
+              <div class="flex rounded-3xl">
+                <div>
+                  <h4 class="text-5xl font-semibold uppercase">Körper</h4>
+                  <p class="text-lg">Natürliche Schönheit</p>
+                </div>
+
+                <img class="w-7 h-7" src="./assets/body-8fbbcc04.svg" alt="1" />
+              </div>
+              <div class="flex w-full rounded-3xl">
+                <div>
+                  <h4 class="text-5xl font-semibold uppercase">Geist</h4>
+                  <p class="text-lg">Klarer Fokus</p>
+                </div>
+                <img
+                  class="w-7 ml-1 h-7"
+                  src="./assets/brain-0f0ceac6.svg"
+                  alt="2"
+                />
+              </div>
+              <div class="flex w-full rounded-3xl">
+                <div>
+                  <h4 class="text-5xl font-semibold uppercase">Seele</h4>
+                  <p class="text-lg">Innere Heilung</p>
+                </div>
+
+                <img
+                  class="w-7 ml-1 h-7"
+                  src="./assets/soul-391b6cf8.svg"
+                  alt="3"
+                />
+              </div>
+              <!-- schreibe ein Text für Körper Geist und Seele -->
+            </div>
           </div>
         </div>
       </section>
@@ -281,9 +326,10 @@
               <img class="w-1/4" src="./assets/1-a1d0f860.svg" alt="1" />
               <h4 class="text-2xl font-medium mt-6">Bewerbung</h4>
               <p class="text-center max-w-xs mt-6">
-                Wir analysieren deine aktuelle Situation und finden heraus, was
-                dich bisher davon abgehalten hat, deine Wunschfigur zu
-                erreichen.
+                Nimm gerne unverbindlich Kontakt mit uns auf, indem du unser
+                Bewerbungsformular ausfüllst. Dadurch können wir gemeinsam
+                ermitteln, ob und auf welche Weise wir dir unterstützend zur
+                Seite stehen können.
               </p>
             </div>
             <div
@@ -292,31 +338,37 @@
               <img class="w-1/4" src="./assets/2-1e41ce20.svg" alt="2" />
               <h4 class="text-2xl font-medium mt-6">Vorgespräch</h4>
               <p class="text-center max-w-xs mt-6">
-                Wir entwickeln gemeinsam einen individuellen Plan, der perfekt
-                zu dir und deinem Alltag passt.
+                Sobald wir deine Bewerbung erhalten haben, wird ein Mitglied
+                unseres Teams mit dir für ein kurzes Vorgespräch, welches ca.
+                10-15 Min. dauert, in Kontakt treten. Nach Abschluss dieses
+                Gesprächs werden wir in der Lage sein, den individuellen Umfang
+                deines optimalen Coachings einzuschätzen und dir einen
+                Preisrahmen mitzuteilen.
               </p>
             </div>
             <div
               class="flex shadow-md bg-[#efe8df] p-8 rounded-3xl flex-col items-center w-full"
             >
               <img class="w-1/4" src="./assets/3-1a7189c2.svg" alt="3" />
-              <h4 class="text-2xl font-medium mt-6">
-                Kostenloses Erstgespräch
-              </h4>
+              <h4 class="text-2xl font-medium mt-6">Kostenlose Erstberatung</h4>
               <p class="text-center max-w-xs mt-6">
-                Wir begleiten dich auf deinem Weg und stehen dir jederzeit mit
-                Rat und Tat zur Seite.
+                Sobald wir feststellen, dass wir dir helfen können, vereinbaren
+                wir eine kostenlose Erstberatung. In diesem Video-Meeting
+                erarbeiten wir gemeinsam die optimale Strategie für dich und
+                klären alle offenen Fragen. Anschließend haben sowohl du als
+                auch wir die Möglichkeit zu entscheiden, ob eine Zusammenarbeit
+                für beide Seiten von Interesse ist.
               </p>
             </div>
           </div>
         </div>
         <a href="#" class="w-full flex justify-center mt-12">
           <button
-            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
           >
-            Termin vereinbaren
+            Erstgespräch vereinbaren
             <span class="text-sm mt-1 opacity-50">
-              kostenlos & unverbindlich
+              kostenfrei & unverbindlich
             </span>
           </button>
         </a>
@@ -433,11 +485,11 @@
         </div>
         <a href="#" class="w-full flex justify-center mt-12">
           <button
-            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
           >
-            Termin vereinbaren
+            Erstgespräch vereinbaren
             <span class="text-sm mt-1 opacity-50">
-              kostenlos & unverbindlich
+              kostenfrei & unverbindlich
             </span>
           </button>
         </a>
@@ -517,11 +569,11 @@
           </div>
           <a href="#" class="w-full flex justify-center mt-12">
             <button
-              class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+              class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
             >
-              Termin vereinbaren
+              Erstgespräch vereinbaren
               <span class="text-sm mt-1 opacity-50">
-                kostenlos & unverbindlich
+                kostenfrei & unverbindlich
               </span>
             </button>
           </a>
@@ -542,13 +594,13 @@
               class="flex shadow-md bg-[#efe8df] p-8 rounded-3xl items-center w-full gap-8"
             >
               <img
-                class="w-1/4 rounded-full"
-                src="./assets/team1-44b4e0dd.jpeg"
+                class="w-72 h-72 object-cover rounded-full"
+                src="./assets/tolga1-a788a65e.png"
                 alt="2"
               />
               <div>
                 <h4 class="text-2xl font-medium mt-6">Tolga Bakir</h4>
-                <h5 class="text-xl">Stinker</h5>
+                <h5 class="text-xl">Abnehmcoach</h5>
                 <p class="text-left mt-6">
                   Luca ist bei uns als Videoeditor tätig. Innerhalb seines
                   Studiums im Bereich Medienkreation & -produktion konnte er
@@ -566,8 +618,8 @@
             >
               <div class="flex items-center gap-6">
                 <img
-                  class="w-1/4 rounded-full"
-                  src="./assets/team1-44b4e0dd.jpeg"
+                  class="w-40 h-40 object-cover rounded-full"
+                  src="./assets/seb2-f4d62e68.jpg"
                   alt="2"
                 />
                 <div>
@@ -590,34 +642,33 @@
             >
               <div class="flex items-center gap-6">
                 <img
-                  class="w-1/4 rounded-full"
-                  src="./assets/team1-44b4e0dd.jpeg"
+                  class="w-40 h-40 object-cover rounded-full"
+                  src="./assets/adam1-763a9552.jpg"
                   alt="2"
                 />
                 <div>
-                  <h4 class="text-2xl font-medium">Sebastian Müller</h4>
-                  <h5 class="text-xl">Video-Editor</h5>
+                  <h4 class="text-2xl font-medium">Adam Hasmagomadov</h4>
+                  <h5 class="text-xl">Webentwickler & Designer</h5>
                 </div>
               </div>
 
               <p class="mt-6">
-                Luca ist bei uns als Videoeditor tätig. Innerhalb seines
-                Studiums im Bereich Medienkreation & -produktion konnte er
-                bereits erste Erfahrungen sammeln und selbstständig
-                Videoprojekte umsetzen. Zudem interessiert er sich schon länger
-                für den Bereich Sport und Fitness und kann somit sein Wissen bei
-                uns im Team bestmöglich einsetzen.
+                Adam Hasmagomadov lebt derzeit in Hannover, Deutschland. Mit 25
+                Jahren beschäftigt er sich seit 6 Jahren mit Design und seit 3
+                Jahren mit Programmierung. Seine Ausbildung zum Mediengestalter
+                mit Schwerpunkt Print und Web hat er an der bib Hochschule
+                Hannover absolviert.
               </p>
             </div>
           </div>
         </div>
         <a href="#" class="w-full flex justify-center mt-12">
           <button
-            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+            class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
           >
-            Termin vereinbaren
+            Erstgespräch vereinbaren
             <span class="text-sm mt-1 opacity-50">
-              kostenlos & unverbindlich
+              kostenfrei & unverbindlich
             </span>
           </button>
         </a>
@@ -625,36 +676,82 @@
       <section id="faq">
         <div class="flex flex-col items-center">
           <h3 class="text-3xl text-center">FAQ</h3>
-          <div class="flex flex-col mt-12 gap-5 w-full">
+          <div class="flex flex-col mt-12 gap-5 faq-wrapper w-full"></div>
+        </div>
+        <!-- write a script for faq toggle. faq-text shall expand and show up and the faq img shall rotate 45deg -->
+        <script>
+          // faq cms
+          const faq = document.querySelector(".faq-wrapper");
+          const faqContent = [
+            {
+              question: "Woher weiß ich dass ich Erfolg haben werde?",
+              answer:
+                "Nachdem du dich bei uns beworben hast, werden wir uns bei dir melden und ein kostenloses Erstgespräch vereinbaren. In diesem Gespräch werden wir uns kennenlernen und herausfinden, ob wir dir helfen können, dein Wunschgewicht zu erreichen. Wenn wir uns dafür entscheiden, dass wir zusammenarbeiten wollen, werden wir dir ein individuelles Angebot machen. Wenn du dieses Angebot annimmst, werden wir dir einen Coach zuweisen, der dich auf deiner Abnehmreise begleitet. Du wirst von uns rund um die Uhr betreut und wir werden dir dabei helfen, deine Ziele zu erreichen.",
+            },
+            {
+              question: "Ohne Jojo-Effekt, ist das überhaupt möglich?",
+              answer:
+                "Nachdem du dich bei uns beworben hast, werden wir uns bei dir melden und ein kostenloses Erstgespräch vereinbaren. In diesem Gespräch werden wir uns kennenlernen und herausfinden, ob wir dir helfen können, dein Wunschgewicht zu erreichen. Wenn wir uns dafür entscheiden, dass wir zusammenarbeiten wollen, werden wir dir ein individuelles Angebot machen. Wenn du dieses Angebot annimmst, werden wir dir einen Coach zuweisen, der dich auf deiner Abnehmreise begleitet. Du wirst von uns rund um die Uhr betreut und wir werden dir dabei helfen, deine Ziele zu erreichen.",
+            },
+            {
+              question: "Wie viel kostet das Programm?",
+              answer:
+                "Nachdem du dich bei uns beworben hast, werden wir uns bei dir melden und ein kostenloses Erstgespräch vereinbaren. In diesem Gespräch werden wir uns kennenlernen und herausfinden, ob wir dir helfen können, dein Wunschgewicht zu erreichen. Wenn wir uns dafür entscheiden, dass wir zusammenarbeiten wollen, werden wir dir ein individuelles Angebot machen. Wenn du dieses Angebot annimmst, werden wir dir einen Coach zuweisen, der dich auf deiner Abnehmreise begleitet. Du wirst von uns rund um die Uhr betreut und wir werden dir dabei helfen, deine Ziele zu erreichen.",
+            },
+            {
+              question: "Gibt es eine Zufriedenheitsgarantie?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+            {
+              question: "Wie lange dauert das Programm?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+            {
+              question: "Auch für ältere Personen geeignet?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+            {
+              question: "Wird das Programm viel Zeit kosten?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+            {
+              question: "Wie stark muss ich auf meine Kalorien achten?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+            {
+              question:
+                "Ich habe noch paar Fragen, wie kann ich Sie kontaktieren?",
+              answer:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            },
+          ];
+          faqContent.forEach((content) => {
+            faq.innerHTML += `
             <div
-              class="flex shadow-md bg-[#efe8df] p-8 rounded-3xl faq-toggle flex-col w-full"
+              class="flex shadow-md bg-[#efe8df] p-4 rounded-3xl faq-toggle flex-col w-full"
             >
               <div class="flex items-center">
                 <img
                   class="w-10"
-                  src="./assets/i-add-267caf94.svg"
+                  src="public/assets/i-add.svg"
                   alt="Öffnen/Schließen"
                 />
-                <h4 class="text-2xl font-medium">Wie läuft das Coaching ab?</h4>
+                <h4 class="text-2xl font-medium">
+                  ${content.question}
+                  </h4>
               </div>
 
               <p class="faq-text">
-                Nachdem du dich bei uns beworben hast, werden wir uns bei dir
-                melden und ein kostenloses Erstgespräch vereinbaren. In diesem
-                Gespräch werden wir uns kennenlernen und herausfinden, ob wir
-                dir helfen können, dein Wunschgewicht zu erreichen. Wenn wir uns
-                dafür entscheiden, dass wir zusammenarbeiten wollen, werden wir
-                dir ein individuelles Angebot machen. Wenn du dieses Angebot
-                annimmst, werden wir dir einen Coach zuweisen, der dich auf
-                deiner Abnehmreise begleitet. Du wirst von uns rund um die Uhr
-                betreut und wir werden dir dabei helfen, deine Ziele zu
-                erreichen.
+                ${content.answer}
               </p>
-            </div>
-          </div>
-        </div>
-        <!-- write a script for faq toggle. faq-text shall expand and show up and the faq img shall rotate 45deg -->
-        <script>
+            </div>`;
+          });
+
           const faqToggle = document.querySelectorAll(".faq-toggle");
           faqToggle.forEach((toggle) => {
             const faqText = toggle.querySelector(".faq-text");
@@ -708,15 +805,15 @@
               class="flex w-1/3 shadow-md bg-[#efe8df] p-8 rounded-3xl flex-col justify-center items-center"
             >
               <img
-                class="w-2/4 rounded-full"
-                src="./assets/team1-44b4e0dd.jpeg"
+                class="w-48 h-48 object-cover rounded-full"
+                src="./assets/tolga1-a788a65e.png"
                 alt="2"
               />
               <h4 class="text-2xl font-medium mt-6">Tolga Bakir</h4>
-              <h5 class="text-xl">Stinker</h5>
+              <h5 class="text-xl">Abnehmcoach</h5>
               <a href="#" class="mt-6">
                 <button
-                  class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#327cc6] text-[#f8f3ec] hover:bg-[#4390dd] rounded-lg transition duration-300"
+                  class="py-3 flex flex-col items-center font-medium text-2xl hover:scale-105 animation w-80 bg-[#97775d] text-[#f8f3ec] hover:bg-[#be926e] rounded-lg transition duration-300"
                 >
                   Zum Instagram-Kanal
                   <span class="text-sm mt-1 opacity-50">
